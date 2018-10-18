@@ -1,5 +1,5 @@
-# Kotlin GoogleApiClient with RxJava
-Easy handling of GoogleApiClient with RxJava
+# Kotlin GoogleApiClient with RxKotlin
+Easy handling of GoogleApiClient with RxKotlin
 
 # Usage
 ```
