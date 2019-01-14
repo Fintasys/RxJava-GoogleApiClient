@@ -17,7 +17,7 @@ class TestClass(val context: Context) {
         val connCallback = object : GoogleApiHelperRx.GoogleApiClientCallbackRx {
             override fun onConnected(client: GoogleApiClient, emitter: ObservableEmitter<GoogleApiClient>) {
                 // Use emitter to control the flow
-                Log.w(GeoFenceManager.TAG, "do something cool")
+                Log.w(TAG, "do something cool")
                 emitter.onComplete()
 
                 // User client to disconnect from GoogleApiClient
