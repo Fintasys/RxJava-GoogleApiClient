@@ -2,7 +2,7 @@
 Easy handling of GoogleApiClient with RxKotlin
 
 # Usage
-```
+```Kotlin
 class TestClass(val context: Context) {
 
     companion object {
